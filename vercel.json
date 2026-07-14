@@ -1,8 +1,1 @@
-﻿{
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/", "destination": "/time-post-office/pages/index.html" },
-    { "source": "/index.html", "destination": "/time-post-office/pages/index.html" },
-    { "source": "/(.*)", "destination": "/time-post-office/$1" }
-  ]
-}
+{}
