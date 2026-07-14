@@ -1,0 +1,108 @@
+{
+  "project": {
+    "name": "时光邮局",
+    "path": "C:\\Users\\admin\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a464b243bf0f7f3328d5eda\\time-post-office",
+    "operation": "create",
+    "deviceType": "desktop",
+    "language": "zh-CN",
+    "dashboardMode": false,
+    "replicationMode": null,
+    "sourceUrl": null,
+    "visualSpecExcerpt": null,
+    "styleDefinitionBrief": "Warm nostalgic dark-tone single-page site: deep brown primary (#2C2420), warm gold accent (#C4956A), cream text (#F7F3EE). Glass-morphism cards with glow borders, noise texture background, serif display font for emotional warmth. Post office / letter / memory theme with cute mailman character.",
+    "designRead": "emotional product landing / memory-conscious individuals / warm nostalgic trust / medium density / avoid neon and cold blue tones",
+    "designDials": {
+      "layoutVariance": 3,
+      "motionIntensity": 3,
+      "visualDensity": 3
+    },
+    "styleContinuityAnchors": {
+      "colorSystem": {
+        "primaryColorRole": "deep brown warm (#2C2420) as primary background, warm gold (#C4956A) as accent for CTAs and highlights",
+        "brandHuePolicy": "single warm brand palette; no secondary or accent brand hue",
+        "stateColors": "semantic success/warning/error/info only"
+      },
+      "shapeSystem": "rounded-lg (12px) cards, rounded-full buttons, warm soft shapes",
+      "typographySystem": "Georgia/Noto Serif SC for display headings; system sans-serif for body",
+      "spacingSystem": "generous vertical rhythm (4xl/6rem section spacing), comfortable padding",
+      "componentLanguage": "glass-morphism cards with top-glow border, pill-shaped buttons",
+      "surfaceAndDepth": "glass-morphism with backdrop-filter blur, subtle noise texture overlay",
+      "imageryAndIconography": "warm-toned illustrations, nostalgic photography, cute character design",
+      "interactionTone": "gentle hover glow, spring click feedback, typewriter text effect"
+    },
+    "specsConstraints": null,
+    "sharedProjectShellContract": null,
+    "generationTree": null
+  },
+  "designSource": {
+    "operatingMode": "free-explore",
+    "libraryIdentity": null,
+    "libraryPath": null,
+    "cssFilePath": "C:\\Users\\admin\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a464b243bf0f7f3328d5eda\\time-post-office\\colors_and_type.css",
+    "brandPrefix": "tpo",
+    "themeMode": "dark",
+    "designDecisionSummary": "Deep brown warm dark theme with gold accent, glass-morphism cards, noise texture, serif headings",
+    "componentContractKind": null,
+    "forbiddenInventedComponents": [],
+    "allowedComponents": [],
+    "styleConstraints": {
+      "radiusMax": 16,
+      "spacingBase": 4,
+      "fontSizeBody": 16,
+      "fontSizeMin": 12,
+      "controlHeightDefault": 40,
+      "controlHeightLarge": 48
+    },
+    "productContext": {
+      "kitType": null,
+      "productType": "emotional memory product landing page"
+    },
+    "actualTokenNameReference": [
+      { "semanticPurpose": "Primary background", "tokenName": "color-primary" },
+      { "semanticPurpose": "Accent / CTA color", "tokenName": "color-accent" },
+      { "semanticPurpose": "Body text", "tokenName": "color-text" },
+      { "semanticPurpose": "Muted text", "tokenName": "color-text-muted" },
+      { "semanticPurpose": "Glass surface", "tokenName": "glass-bg" },
+      { "semanticPurpose": "Glow border", "tokenName": "color-border-glow" }
+    ]
+  },
+  "pages": [
+    {
+      "nodeId": "page-index",
+      "slug": "index",
+      "title": "时光邮局",
+      "htmlSrc": "pages/index.html",
+      "pageIndex": 1,
+      "stateGroupId": null,
+      "stateRole": null,
+      "baseStatePageId": null,
+      "sharedShellContract": [],
+      "mutableRegions": [],
+      "derivedFromHtmlSrc": null,
+      "derivationType": "original",
+      "sourcePageId": null,
+      "sourceHtmlSrc": null,
+      "pageType": "showcase",
+      "businessScenario": "Emotional memory product single-page site with hero, features, flow, gallery, and about sections",
+      "visualNorthStar": "Warm nostalgic landing: deep brown noise texture background, glowing glass cards, cute mailman character greeting visitors, golden accent highlights guiding the eye through memory-themed sections",
+      "compositionPattern": "Vertical narrative scroll: Hero → Feature trio → Process steps → Memory gallery → About story",
+      "continuityAnchors": ["glass-morphism card style", "warm gold accent CTA", "serif display headings", "noise texture background"],
+      "libraryRestraintMode": false,
+      "uiKitPath": null,
+      "componentPlan": [],
+      "imagePlan": ["hero-post-office.jpg", "mailman-idle.jpg", "feature-daily.jpg", "feature-companion.jpg", "feature-treasure.jpg"],
+      "chartsRequired": false,
+      "miniProgramStyle": false,
+      "qualityRisks": ["Long single page HTML", "Character CSS illustration complexity", "Typewriter effect JS"]
+    }
+  ],
+  "assets": [
+    { "filename": "hero-post-office.jpg", "role": "critical-hero", "owningPage": "index", "semanticDescription": "Warm nostalgic post office interior with golden light, old wooden desk, scattered letters and envelopes", "status": "generated" },
+    { "filename": "mailman-idle.jpg", "role": "critical-hero", "owningPage": "index", "semanticDescription": "3D chibi-style cute mailman character with white cotton-candy face, black dot eyes, dark blue uniform, orange scarf, brown mailbag", "status": "generated" },
+    { "filename": "feature-daily.jpg", "role": "supporting-content", "owningPage": "index", "semanticDescription": "Warm-toned photo of a person gently placing a polaroid photo into an envelope at a wooden desk", "status": "generated" },
+      { "filename": "feature-companion.jpg", "role": "supporting-content", "owningPage": "index", "semanticDescription": "Small cute mailman character sitting next to a stack of letters, warm lighting, cozy atmosphere", "status": "generated" },
+      { "filename": "feature-treasure.jpg", "role": "supporting-content", "owningPage": "index", "semanticDescription": "Open vintage wooden box revealing glowing polaroid memories scattered with warm golden sparkles", "status": "generated" }
+  ],
+  "wiringPlan": [],
+  "hiddenInteractionPlan": []
+}
