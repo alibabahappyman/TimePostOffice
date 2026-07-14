@@ -1,0 +1,209 @@
+/* Time Post Office — Brand Design System */
+/* 时光邮局 — 暗色暖调视觉系统 */
+
+:root {
+  /* === Color System === */
+  --color-primary: #2C2420;
+  --color-primary-light: #3D342E;
+  --color-primary-lighter: #4A3F38;
+  --color-primary-dark: #1E1815;
+
+  --color-accent: #C4956A;
+  --color-accent-light: #D4A87E;
+  --color-accent-lighter: #E0BFA0;
+  --color-accent-dark: #A87B52;
+
+  --color-text: #F7F3EE;
+  --color-text-muted: #B8A99A;
+  --color-text-dim: #8A7D72;
+
+  --color-surface: rgba(44, 36, 32, 0.6);
+  --color-surface-light: rgba(44, 36, 32, 0.35);
+  --color-surface-hover: rgba(196, 149, 106, 0.12);
+  --color-border: rgba(196, 149, 106, 0.15);
+  --color-border-light: rgba(247, 243, 238, 0.08);
+  --color-border-glow: rgba(196, 149, 106, 0.3);
+
+  --state-success: #7FB069;
+  --state-warning: #D4A04A;
+  --state-error: #C75D5D;
+  --state-info: #6A9FB5;
+
+  /* === Typography === */
+  --font-display: 'Georgia', 'Noto Serif SC', serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.5rem;
+  --font-size-5xl: 3.25rem;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.75;
+
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.05em;
+  --letter-spacing-wider: 0.1em;
+
+  /* === Spacing === */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  --spacing-4xl: 6rem;
+
+  /* === Radius === */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* === Shadows (CSS drop-shadow approach, minimal alpha) === */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-float: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-modal: 0 16px 48px rgba(0, 0, 0, 0.12);
+
+  /* === Transitions === */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease;
+  --transition-spring: 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* === Glass Effect === */
+  --glass-bg: rgba(44, 36, 32, 0.55);
+  --glass-border: rgba(196, 149, 106, 0.12);
+  --glass-blur: 16px;
+  --glass-blur-strong: 24px;
+}
+
+/* === Typography Classes === */
+.tpo-display {
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+  color: var(--color-text);
+}
+
+.tpo-body {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+  color: var(--color-text);
+}
+
+.tpo-muted {
+  color: var(--color-text-muted);
+}
+
+.tpo-accent {
+  color: var(--color-accent);
+}
+
+/* === Background Texture === */
+.tpo-textured-bg {
+  background-color: var(--color-primary-dark);
+  background-image:
+    radial-gradient(ellipse at 20% 50%, rgba(196, 149, 106, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(196, 149, 106, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 100%, rgba(30, 24, 21, 0.9) 0%, transparent 70%);
+}
+
+/* === Glass Card === */
+.tpo-glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-top: 1px solid var(--color-border-glow);
+  border-radius: var(--radius-lg);
+}
+
+.tpo-glass-nav {
+  background: rgba(30, 24, 21, 0.7);
+  backdrop-filter: blur(var(--glass-blur-strong));
+  -webkit-backdrop-filter: blur(var(--glass-blur-strong));
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+/* === Button Styles === */
+.tpo-btn-primary {
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-dark));
+  color: var(--color-primary-dark);
+  font-weight: var(--font-weight-semibold);
+  border-radius: var(--radius-full);
+  padding: var(--spacing-sm) var(--spacing-xl);
+  transition: all var(--transition-normal);
+  box-shadow: 0 0 0 0 rgba(196, 149, 106, 0);
+}
+
+.tpo-btn-primary:hover {
+  box-shadow: 0 0 20px rgba(196, 149, 106, 0.3);
+  transform: translateY(-1px);
+}
+
+.tpo-btn-primary:active {
+  transform: scale(0.97);
+}
+
+.tpo-btn-ghost {
+  background: transparent;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-full);
+  padding: var(--spacing-sm) var(--spacing-xl);
+  font-weight: var(--font-weight-medium);
+  transition: all var(--transition-normal);
+}
+
+.tpo-btn-ghost:hover {
+  background: var(--color-surface-hover);
+  box-shadow: 0 0 15px rgba(196, 149, 106, 0.15);
+}
+
+.tpo-btn-ghost:active {
+  transform: scale(0.97);
+}
+
+/* === Progress Bar === */
+.tpo-progress {
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+  height: 6px;
+  overflow: hidden;
+}
+
+.tpo-progress-bar {
+  background: linear-gradient(90deg, var(--color-accent-dark), var(--color-accent), var(--color-accent-light));
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width var(--transition-slow);
+}
+
+/* === Noise Texture Overlay === */
+.tpo-noise::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  pointer-events: none;
+  z-index: 0;
+}

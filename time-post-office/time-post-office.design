@@ -1,0 +1,110 @@
+{
+  "data": [
+    {
+      "id": "page-index",
+      "title": "时光邮局",
+      "type": "page",
+      "version": 1,
+      "createdAt": 1782991800000,
+      "canvasData": {
+        "x": 144,
+        "y": 12,
+        "group": 0
+      },
+      "devMetadata": {
+        "htmlSrc": "pages/index.html",
+        "interactions": []
+      }
+    },
+    {
+      "id": "image-001",
+      "title": "怀旧邮局主视觉",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1782991900000,
+      "canvasData": {
+        "x": 0,
+        "y": 1238
+      },
+      "devMetadata": {
+        "imageSrc": "assets/hero-post-office.jpg"
+      }
+    },
+    {
+      "id": "image-002",
+      "title": "小邮差角色",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1782991900000,
+      "canvasData": {
+        "x": 620,
+        "y": 1238
+      },
+      "devMetadata": {
+        "imageSrc": "assets/mailman-idle.jpg"
+      }
+    },
+    {
+      "id": "image-003",
+      "title": "每日寄存照片",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1782991900000,
+      "canvasData": {
+        "x": 1240,
+        "y": 1238
+      },
+      "devMetadata": {
+        "imageSrc": "assets/feature-daily.jpg"
+      }
+    },
+    {
+      "id": "image-004",
+      "title": "小邮差陪伴",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1782991900000,
+      "canvasData": {
+        "x": 1860,
+        "y": 1238
+      },
+      "devMetadata": {
+        "imageSrc": "assets/feature-companion.jpg"
+      }
+    },
+    {
+      "id": "image-005",
+      "title": "珍藏时光宝箱",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1782991900000,
+      "canvasData": {
+        "x": 2480,
+        "y": 1238
+      },
+      "devMetadata": {
+        "imageSrc": "assets/feature-treasure.jpg"
+      }
+    },
+    {
+      "id": "image-006",
+      "title": "小邮差透明背景",
+      "type": "image",
+      "version": 1,
+      "createdAt": 1782992000000,
+      "canvasData": {
+        "x": 624,
+        "y": 1188
+      },
+      "devMetadata": {
+        "imageSrc": "assets/mailman-transparent.png"
+      }
+    }
+  ],
+  "config": {
+    "autoLayout": false,
+    "deviceType": "desktop",
+    "projectName": "时光邮局",
+    "designLibrary": null
+  }
+}
